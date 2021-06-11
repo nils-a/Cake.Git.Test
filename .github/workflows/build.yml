@@ -24,8 +24,8 @@ jobs:
       - name: Build project
         uses: cake-build/cake-action@v1
         with:
-          script-path: recipe.cake
-          target: CI
+          script-path: build.cake
+          target: Default
           verbosity: Diagnostic
           cake-version: 1.1.0
           cake-bootstrap: true
